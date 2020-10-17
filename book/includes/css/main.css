@@ -1,0 +1,189 @@
+/*
+font-family: 'Heebo', sans-serif;
+font-family: 'Krona One', sans-serif;
+*/
+
+body {
+	font-family: 'Heebo', sans-serif;
+	margin: 0;
+}
+
+
+/*---------------------------------------									
+
+				HEADER
+
+---------------------------------------*/
+
+header {
+	font-family: 'Krona One', sans-serif;
+	min-height: 100px;
+	background-color: #E8E8E8;
+}
+
+.reg {
+	font-family: 'Heebo', sans-serif;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.main-header {
+	text-align: center;
+	align-content: center;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.header-hr {
+	margin-bottom: 0;
+}
+
+.lick-header {
+	height: 40px;
+	margin-top: 0;
+	font-family: 'Krona One', sans-serif;
+	background-color: #E8E8E8;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	text-align: center;
+	padding-top: 15px;
+	opacity: 90%;
+}
+
+.sticky__p {
+	margin: 0;
+}
+
+/*----------------------------------
+
+				MAIN
+
+------------------------------------*/
+
+.article__text {
+	border: 2px solid black;
+	width: 1000px;
+	height: 1000px;
+	margin-bottom: 80px;
+	padding: 20px;
+	background-color: #F4F4F4;
+}
+
+
+.first-main {
+	background-color: #DCDCDC;
+	min-height: 600px;
+	padding-top: 80px;
+	padding-bottom: auto;
+}
+
+.inner-main {
+	display: flex;
+	justify-content: space-around;
+}
+
+.inner-main__text {
+	max-width: 40%;
+}
+
+.main-book__image {
+	height: 500px;
+	box-shadow: -5px 5px 20px black;
+}
+
+/*--------------------------------------*/
+
+.head-second {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 100px;
+	font-weight: 900;
+	font-size: 36px;
+}
+
+.second-main {
+	background-color: #DCDCDC;
+	min-height: 600px;
+	padding-top: 80px;
+	padding-bottom: auto;
+}
+
+.inner-header {
+	width: 300px;
+	align-items: center;
+}
+
+.second-main__inner {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 910px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+.image {
+	width: 300px;
+	height: 400px;
+	background-image: url(../image/book1.png);
+	background-size: cover;
+	text-decoration: none;
+	color: black;
+	font-family: 'Krona One', sans-serif;
+	margin-bottom: 5px;
+
+}
+
+.image:hover {
+	transform: scale(1.03, 1.03);
+	transition: .8s;
+	opacity: 50%;
+	box-shadow: -5px 5px 10px black;
+}
+
+.on-image {
+	opacity: 0%;
+	height: 100%;
+	width: 100%;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.image p:hover {
+	padding-left: auto;
+	padding-right: auto;
+	text-align: center;
+	opacity: 100%;
+	display: flex;
+	align-items: center;
+}
+
+
+/*---------------------------
+
+			FOOTER
+
+------------------------------*/
+
+footer {
+	min-height: 100px;
+	background-color: #C8C8C8;
+}
+
+.inner-footer {
+	display: flex;
+	padding-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 900px;
+}
+
+.row {
+	width: 300px;
+	text-align: center;
+}
